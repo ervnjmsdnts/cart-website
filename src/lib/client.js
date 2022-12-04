@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const API_URL = "https://inventory-scanner-api.vercel.app/api";
+export const API_URL = "https://cart-api-bsu.vercel.app/api";
 export const LOCAL_URL = "http://localhost:8080/api";
 
 const client = axios.create({
