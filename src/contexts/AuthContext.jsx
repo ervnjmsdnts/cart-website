@@ -18,6 +18,8 @@ const AuthProvider = ({ children }) => {
   const login = useCallback((token, user) => {
     localStorage.setItem("token", token);
     localStorage.setItem("user", JSON.stringify(user));
+
+    navigate(0);
   }, []);
 
   const logout = useCallback(() => {
